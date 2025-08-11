@@ -1,0 +1,14 @@
+body {
+  background-color: #f8f9fa;
+}
+.progress-circle {
+  --size: 150px;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: conic-gradient(var(--color) calc(var(--value)*1%), #e9ecef 0);
+  font-weight: bold;
+}
